@@ -7,7 +7,7 @@ The first two commands import the Microsoft GPG key and move it to the trusted G
 Note that this code assumes that you are running a Debian-based system and have sudo privileges. If you are running a different operating system or do not have sudo privileges, you will need to modify the commands accordingly.
 
 - **?** If you are receiving an error saying "gpg not found" when running the code provided,it means that the gpg package is not installed on your system.
-#Use **"sudo apt-get install gnupg"** to install gpg package.
+#Use ** ``` sudo apt-get install gnupg ``` ** to install gpg package.
 
 - **?** Error called, "W: GPG error: https://packages.microsoft.com/repos/vscode stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY EB3E94ADBE1229CF
 E: The repository 'https://packages.microsoft.com/repos/vscode stable InRelease' is not signed.
