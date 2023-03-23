@@ -13,8 +13,7 @@ Note that this code assumes that you are running a Debian-based system and have 
 E: The repository 'https://packages.microsoft.com/repos/vscode stable InRelease' is not signed.
 N: Updating from such a repository can't be done securely, and is therefore disabled by default.
 N: See apt-secure(8) manpage for repository creation and user configuration details."
-
-- Use this comand - **'' ``` sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF ```''**
+Use this comand - ``` sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys EB3E94ADBE1229CF ```
 
 
 
