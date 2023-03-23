@@ -6,3 +6,8 @@ The first two commands import the Microsoft GPG key and move it to the trusted G
 
 Note that this code assumes that you are running a Debian-based system and have sudo privileges. If you are running a different operating system or do not have sudo privileges, you will need to modify the commands accordingly.
 
+#If you are receiving an error saying "gpg not found" when running the code provided,it means that the gpg package is not installed on your system.
+#Use "sudo apt-get install gnupg" to install gpg package.
+
+
+
